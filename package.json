@@ -16,7 +16,8 @@
   "unpkg": "dist/bcd-ui-component/bcd-ui-component.js",
   "files": [
     "dist/",
-    "loader/"
+    "loader/",
+    "generated/"
   ],
   "scripts": {
     "build": "stencil build --docs",

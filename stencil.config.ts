@@ -6,6 +6,8 @@ export const config: Config = {
   outputTargets: [
     reactOutputTarget({
       componentCorePackage: 'bcd-ui-component',
+      //proxiesFile: './generated/bcd-ui-component-react/src/components.ts',
+      //proxiesFile: '../../src/bcd-ui-component-react/src/components.ts',
       proxiesFile: '../bcd-ui-component-react/src/components.ts',
     }),
     {
